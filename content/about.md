@@ -1,3 +1,8 @@
 # About Content v2
 
-[Back home](/)
+You can go back to the [Back home](/)
+
+
+# About page
+
+You can go back to the [home page](/).

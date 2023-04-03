@@ -6,4 +6,6 @@ Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[.
 
 ---
 
+Переходи на [первый пост](/my-blog/content/blog/first-post.md)
+
 Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.
