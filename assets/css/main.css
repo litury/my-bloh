@@ -1,5 +1,3 @@
-/* ./assets/css/main.css */
-
 @import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap');
 
 @tailwind base;
@@ -19,11 +17,9 @@ body {
     @apply text-slate-700;
 }
 
-
 a {
     text-decoration: underline;
 }
-
 
 h1,
 h2,

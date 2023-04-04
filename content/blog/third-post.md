@@ -2,7 +2,7 @@
 
 This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
 
-Try to navigate to [/about](/my-blog/content/blog/about.md). These 2 pages are rendered by the `pages/[...slug].vue` component.
+Try to navigate to [/about](/my-blog/content/blog/second-post.md). These 2 pages are rendered by the `pages/[...slug].vue` component.
 
 ---
 
