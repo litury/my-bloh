@@ -3,14 +3,14 @@
     <div class="wrapper">
       <NuxtLink to="/" class="no-underline">
         <figure class="site-logo">
-          <h1>Site</h1>
+          <h1>Основа</h1>
         </figure>
       </NuxtLink>
 
       <nav class="site-nav">
         <ul class="links">
           <li class="link">
-            <NuxtLink to="/blog">Blog</NuxtLink>
+            <NuxtLink to="/blog">Блог</NuxtLink>
           </li>
         </ul>
       </nav>

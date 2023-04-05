@@ -18,7 +18,7 @@ body {
 }
 
 a {
-    text-decoration: underline;
+    @apply underline underline-offset-2;
 }
 
 h1,
@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-
+    @apply font-header;
 }
 
 .icon {
@@ -56,11 +56,11 @@ h6 {
 }
 
 .article-tags {
-    @apply flex gap-2 py-2;
+    @apply flex gap-2 py-3;
 }
 
 .article-tags .tag {
-    @apply bg-slate-100 text-slate-700 text-sm p-2 py-1 rounded-md;
+    @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white text-white text-sm md:text-base p-2 py-1 rounded-md opacity-75;
     @apply transition-all !py-0.5 hover:-translate-y-0.5;
 }
 
@@ -70,7 +70,7 @@ h6 {
     @apply p-12 bg-slate-50;
 }
 
-.page-heading>.wrapper {
+.page-heading > .wrapper {
     @apply max-w-3xl m-auto;
 }
 
@@ -90,6 +90,17 @@ h6 {
     @apply no-underline;
 }
 
-.article-item>*>.wrapper {
+.article-item > * > .wrapper {
     @apply flex items-start gap-4;
 }
+
+@keyframes custom-bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-60px);
+    }
+}
+

@@ -1,28 +1,34 @@
+<!-- ./pages/blog/index.vue -->
+
 <script setup>
 definePageMeta({
   key: (route) => route.fullPath,
 });
+
 // get tag query
 const {
-  query: {tags},
+  query: { tags },
 } = useRoute();
+
 const filter = ref(tags?.split(","));
+
 // set meta for page
 useHead({
   title: "All articles",
-  meta: [{name: "description", content: "Here's a list of all my great articles"}],
+  meta: [{ name: "description", content: "Here's a list of all my great articles" }],
 });
 </script>
 <template>
   <main>
     <header class="page-heading">
       <div class="wrapper">
-        <h1 class="text-5xl font-extrabold">All articles</h1>
-        <p class="font-medium text-lg">Here's a list of all my great articles</p>
+        <h1 class="text-5xl font-extrabold">Все статьи</h1>
+        <p class="font-medium text-lg">Вот список всех моих прекрасных статей.</p>
       </div>
     </header>
     <section class="page-section">
-      <Tags/>
+      <Tags />
+
       <!-- Render list of all articles in ./content/blog using `path` -->
       <!-- Provide only defined fieldsin the `:query` prop -->
       <ContentList
@@ -44,7 +50,7 @@ useHead({
               <NuxtLink :to="article._path">
                 <div class="wrapper">
                   <div class="img-cont w-32 shrink-0">
-                    <img :src="`/${article.img}`" :alt="article.title" class="rounded-lg max-h-[8rem]"/>
+                    <img :src="`/${article.img}`" :alt="article.title" class="rounded-lg max-h-[8rem]" />
                   </div>
                   <header>
                     <h1 class="text-2xl font-semibold">{{ article.title }}</h1>
@@ -58,9 +64,10 @@ useHead({
             </li>
           </ul>
         </template>
+
         <!-- Not found slot to display message when no content us is found -->
         <template #not-found>
-          <p>No articles found.</p>
+          <p>Статьи не найдены.</p>
         </template>
       </ContentList>
     </section>

@@ -1,21 +1,22 @@
 <script setup>
-import {ArrowLeftIcon, ArrowRightIcon} from "@heroicons/vue/24/solid"
-
-defineProps(["prev", "next"])
+// import icons
+import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/vue/24/solid";
+// define prev and next props
+defineProps(["prev", "next"]);
 </script>
 
 <template>
-  <ul class="prev-next-count">
+  <ul class="prev-next-cont">
     <li class="link-item prev">
       <NuxtLink v-if="prev" :to="prev._path">
-        <ArrowLeftIcon class="icon stroke"/>
-        <span> {{ prev.title }}</span>
+        <ArrowLeftIcon class="icon stroke" />
+        <span> {{ prev.title }} </span>
       </NuxtLink>
     </li>
     <li class="link-item next">
       <NuxtLink v-if="next" :to="next._path">
-        <span> {{ next.title }}</span>
-        <ArrowLeftIcon class="icon stroke"/>
+        <span> {{ next.title }} </span>
+        <ArrowRightIcon class="icon stroke" />
       </NuxtLink>
     </li>
   </ul>

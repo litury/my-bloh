@@ -1,10 +1,8 @@
-
-
 ---
-title: 'Nuxt Content v2 is awesome!'
-description: 'This is my first article!'
-img: 'img/cover (1).JPG'
-tags: [Nuxt, Content, Learning, first]
+title: 'Статья номер 1'
+description: 'Тут мы рассказываем про статью номер один'
+img: 'img/cover.jpg'
+tags: [Nuxt, Content, first]
 ---
 
 ## My first blog post
@@ -12,12 +10,13 @@ tags: [Nuxt, Content, Learning, first]
 Welcome to my first blog post using [content v2 module](https://content.nuxtjs.org/)
 
 > Hey there! 👋🏾  This is my first blog post learning nuxt content.
+
 I'm currently building it using the following:
 
 - Nuxt.js
 - Nuxt Content module
 - TailwindCSS
-    - TailwindCSS typography
+  - TailwindCSS typography
 
 ## Nuxt.js
 
@@ -32,13 +31,13 @@ yarn dev -o
 
 ```ts
 // ./nuxt.config.ts
-import { defineNuxtConfig } from 'nuxt'
+
 export default defineNuxtConfig({
   // My Nuxt config
 })
 ```
 
-::InfoBox{type="error"}
+::InfoBox{type="warning"}
 Here's a handy bit of information for you!
 
 #details

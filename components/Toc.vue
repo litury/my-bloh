@@ -13,7 +13,7 @@ const flattenLinks = (links) => {
         return _link;
       })
       .flat(1);
-  console.log({ _links });
+  console.log({_links});
   return _links;
 };
 </script>
@@ -21,7 +21,7 @@ const flattenLinks = (links) => {
 <template>
   <nav class="toc">
     <header class="toc-header">
-      <h3 class="text-xl font-bold">Table of contents</h3>
+      <h3 class="text-xl font-bold">Оглавление</h3>
     </header>
     <ul class="toc-links">
       <!-- render each link with depth class -->
@@ -39,21 +39,27 @@ const flattenLinks = (links) => {
   @apply p-4 bg-slate-50 border border-slate-200 rounded-lg;
   @apply max-h-[calc(100vh-6rem)] overflow-auto;
 }
+
 .toc-header {
   @apply pb-2 mb-2 border-b border-slate-200;
 }
+
 .toc-links {
   @apply flex flex-col gap-2 px-2;
 }
+
 .toc-link {
   @apply text-slate-500;
 }
+
 .toc-link._3 {
   @apply pl-3;
 }
+
 .toc-link._4 {
   @apply pl-6;
 }
+
 .toc-link._undefined {
   @apply pl-8;
 }

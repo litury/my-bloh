@@ -1,3 +1,4 @@
+<!-- ./app.vue -->
 <script setup>
 useHead({
   title: "Nuxt 3 + Content v2 Starter",
@@ -10,5 +11,6 @@ useHead({
   <div>
     <SiteHeader />
     <NuxtPage />
+    <SiteFooter />
   </div>
 </template>
