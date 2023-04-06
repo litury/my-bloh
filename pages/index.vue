@@ -1,4 +1,6 @@
 <!-- ./pages/index.vue -->
+
+
 <template>
   <main>
     <section class="hero-section">
@@ -8,7 +10,7 @@
             Привет, я Юрий <span class="absolute text-4xl">*</span>
           </h1>
           <p class="inline">Приглашаю вас почитать
-            <NuxtLink class="blog-link mb-8 animate-bounce" to="/blog">
+            <NuxtLink  class="blog-link mb-8 animate-bounce" to="/blog">
               мой блог
             </NuxtLink>
           </p>
@@ -18,8 +20,8 @@
           </p>
         </header>
 
-        <div class="order-1 sm:order-3">
-          <img class="imgs" src="/img/avatar.jpg" alt="">
+        <div class="avatar order-1 sm:order-3">
+          <img class="avatar_img" src="/img/avatar2.png" alt="">
         </div>
 
       </div>
@@ -43,9 +45,16 @@
 
 }
 
-.imgs {
-  height: 30vh;
-    margin: 0 auto;
-  border-radius: 50%;
+.avatar {
+  @apply relative w-44 h-44 m-auto sm:w-72 sm:h-72;
+}
+
+.avatar_img {
+  @apply absolute w-64 h-64 sm:w-96 sm:h-96;
+
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  object-fit:cover;
 }
 </style>

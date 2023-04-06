@@ -11,7 +11,7 @@ const {
 } = useRoute();
 
 const filter = slug.split(",");
-console.log({ filter });
+console.log({ filter } + "ssdssdsd");
 
 
 // set meta for page

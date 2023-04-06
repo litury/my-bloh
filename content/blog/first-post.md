@@ -18,6 +18,9 @@ I'm currently building it using the following:
 - TailwindCSS
   - TailwindCSS typography
 
+![Текст с описанием картинки](/img/avatar.jpg)
+
+
 ## Nuxt.js
 
 [Nuxt](https://nuxtjs.org/) is a powerful Vue framework that offers great development features such as server side rendering.

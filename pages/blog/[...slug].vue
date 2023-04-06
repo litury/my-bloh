@@ -17,7 +17,6 @@ const { data } = await useAsyncData(`content-${path}`, async () => {
 
 // destrucure `prev` and `next` value from data
 const [prev, next] = data.value.surround;
-console.log({ data, prev, next });
 
 // set the meta
 useHead({
