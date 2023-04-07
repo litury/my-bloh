@@ -1,1 +1,0 @@
-export default (function(a,b,c,d){return {data:{"content-query-sUSAn6cp1T":[{_path:"\u002Fblog\u002Fthird-post",title:"Статья номер три",description:"Ну а здесь мы рассказываем про третью статью",img:"img\u002Fcover (3).JPG",tags:[a,b,c]}],tags:[{tags:[d,a,"first"]},{tags:[d,a,"second"]},{tags:[a,b,c]}]},prerenderedAt:1680859561760}}("Content","Learning","third","Nuxt"))

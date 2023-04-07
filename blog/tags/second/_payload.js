@@ -1,1 +1,0 @@
-export default (function(a,b,c){return {data:{tags:[{tags:[b,a,"first"]},{tags:[b,a,c]},{tags:[a,"Learning","third"]}],"content-query-jvSlNjCRP6":[{_path:"\u002Fblog\u002Fsecond-post",title:"Статья номер два",description:"А тут мы рассказываем про вторую статью",img:"img\u002Fcover (2).JPG",tags:[b,a,c]}]},prerenderedAt:1680859561737}}("Content","Nuxt","second"))
