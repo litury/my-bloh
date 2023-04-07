@@ -1,0 +1,1 @@
+import{i as u}from"./entry.0671c314.js";u();function n({app:c,route:r,store:a}){const t=r.path.split("/").filter(e=>e);t.unshift("/");const o=t.map((e,s)=>({path:t.slice(0,s+1).join("/"),name:e,isActive:s===t.length-1}));a.commit("setBreadcrumbs",o)}export{n as default};
