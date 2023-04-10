@@ -1,7 +1,7 @@
 ---
 title: 'Статья номер три'
 description: 'Ну а здесь мы рассказываем про третью статью'
-img: 'img/cover (3).JPG'
+img: 'img/cover (3).jpeg'
 tags: [Content, Learning, third]
 ---
 

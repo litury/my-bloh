@@ -1,7 +1,7 @@
 ---
 title: 'Статья номер 1'
 description: 'Тут мы рассказываем про статью номер один'
-img: 'img/cover.jpg'
+img: 'img/cover.jpeg'
 tags: [Nuxt, Content, first]
 ---
 
