@@ -1,6 +1,7 @@
 <!-- ./pages/blog/tags/[slug].vue -->
 
 <script setup>
+
 // const print = (wareev) => {
 //   console.log(wareev);
 // };
@@ -23,9 +24,11 @@ useHead({
 <template>
   <main>
     <header class="page-heading">
+
+
       <div class="wrapper">
         <h1 class="text-5xl font-extrabold">Все статьи с тегом "{{ slug }}"</h1>
-        <p class="font-medium text-lg">Вот список всех моих замечательных статей</p>
+        <p class="font-medium text-lg">Вот список всех моих замечательных статей {{$route.path}}</p>
       </div>
     </header>
     <section class="page-section">
